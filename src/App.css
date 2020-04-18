@@ -22,3 +22,21 @@
 .header h1{
   text-align: center;
 }
+
+
+.team{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.member{
+  width:350px;
+  height:300px;
+  margin: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-shadow: 2px 2px 5px black;
+
+}

@@ -3,7 +3,7 @@ import React from 'react'
 export default function Member(props) {
     return (
         <div>
-            <div classname="member">
+            <div className="member">
 
              <div className="top">
             </div>
