@@ -15,8 +15,6 @@ export default function Member(props) {
 
                 <div className="name">{props.employ.firstName} {props.employ.lastName} </div>
                 <div className="job">{props.employ.jobTitle}</div>
-                
-                
             </div>
             
             </div>

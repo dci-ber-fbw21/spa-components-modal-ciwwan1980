@@ -40,3 +40,20 @@
   box-shadow: 2px 2px 5px black;
 
 }
+
+.member .bottom .image img{
+  transition: 0.3s;
+  /* display: inline-block; */
+  border-radius: 50%;
+}
+.member .top{
+  width:350px;
+  height:80px;
+  background: black;
+}
+
+.member .bottom{
+  position: relative;
+  top:-20px;
+  text-align: center;
+}
