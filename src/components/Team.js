@@ -11,7 +11,6 @@ export default function Team(props) {
     return (
         <div className="team">
             {allTeam}
-            
         </div>
     )
 }
