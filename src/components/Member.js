@@ -1,6 +1,7 @@
 import React from 'react'
 
 export default function Member(props) {
+    // props.employ props.getEmpl
     return (
         <div>
             <div className="member" onClick={()=>props.getEmploy(props.employ)}>
