@@ -3,7 +3,7 @@ import React from 'react'
 export default function Member(props) {
     return (
         <div>
-            <div className="member">
+            <div className="member" onClick={()=>props.setshow(true)}>
 
              <div className="top">
             </div>
