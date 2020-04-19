@@ -7,8 +7,8 @@ export default function Team(props) {
 
     const [show,setshow]=useState(false)
 
-    const getEmploy=(id)=>{
-        console.log(id)
+    const getEmploy=(employ)=>{
+        console.log(employ)
     }
 
 

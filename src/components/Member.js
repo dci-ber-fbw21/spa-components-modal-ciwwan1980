@@ -3,7 +3,7 @@ import React from 'react'
 export default function Member(props) {
     return (
         <div>
-            <div className="member" onClick={()=>props.getEmploy(props.employ.id)}>
+            <div className="member" onClick={()=>props.getEmploy(props.employ)}>
 
              <div className="top">
             </div>
