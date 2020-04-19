@@ -6,9 +6,12 @@ export default function Team(props) {
 
 
     const [show,setshow]=useState(false)
+    const [index,setindex]=useState(0)
 
     const getEmploy=(employ)=>{
-        console.log(employ)
+        // console.log(employ)
+        const myIndex=props.data.indexOf(employ)
+        console.log(props.data, "props.Data")
         setshow(true)
     }
 
