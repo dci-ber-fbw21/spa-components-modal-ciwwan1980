@@ -9,6 +9,7 @@ export default function Team(props) {
 
     const getEmploy=(employ)=>{
         console.log(employ)
+        setshow(true)
     }
 
 
