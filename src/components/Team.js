@@ -7,10 +7,14 @@ export default function Team(props) {
 
     const [show,setshow]=useState(false)
 
+    const getEmploy=(id)=>{
+        console.log(id)
+    }
+
 
     const allTeam= props.data.map(employ=>{
         // console.log(employ, "employ")
-        return (<Member employ={employ} show={show} setshow={setshow}/ >)
+        return (<Member employ={employ} getEmploy={getEmploy}/ >)
     })
 
     return (
